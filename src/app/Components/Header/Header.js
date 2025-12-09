@@ -35,7 +35,7 @@ export default function Header() {
         </div>
 
         {/* RIGHT SIDE ICONS */}
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 lg:mr-10 md:mr-8 sm:mr-6">
 
           {/* PROFILE */}
           <img
