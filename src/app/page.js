@@ -5,10 +5,13 @@ import Main from './Components/Main/Main'
 
 export default function page() {
   return (
-    <div>
+    <div >
       <Header/>
       <Navbar/>
-      <Main/>
+      <div className='bg-gray-100 min-h-screen p-6'>
+
+      <Main />
+      </div>
     </div>
   )
 }

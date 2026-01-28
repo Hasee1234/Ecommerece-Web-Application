@@ -131,7 +131,7 @@ const Navbar = () => {
       <navbar className="flex items-center justify-between border-1 border-gray-200 py-4 px-4">
 
         {/* LEFT MENU */}
-        <ul className="flex items-center gap-6 lg:ml-16 md:ml-12">
+        <ul className="flex items-center gap-6 lg:ml-13 md:ml-11">
           <li>
             <select>
               <option value="option1">All Category</option>
