@@ -296,7 +296,7 @@ const SignUpPage = ({ switchToLogin }) => {
           </form>
 
           <p className="mt-8 text-center text-sm text-gray-400">
-            Already have an account?{" "}
+            Already have an account...?{" "}
             <span onClick={switchToLogin} className="font-medium cursor-pointer text-blue-400">
               Login here <ArrowRight className="inline h-4 w-4" />
             </span>
