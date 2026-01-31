@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import { useProductStore } from "../../stores/product.store";
 import { useEffect } from "react";
 import { useSaveForLaterStore } from "../../stores/saveForLater.store";
+import { useAuthStore } from "../../stores/auth.store";
 
 export default function Content() {
   const { view } = useToggleStore();
@@ -17,9 +18,14 @@ export default function Content() {
     getAllProducts();
   }, [category]);
 
+  const { authUser } = useAuthStore();
+
   useEffect(() => {
-    getSaveForLaterItems();
-  }, [addToSaveForLater]);
+    // only fetch save-for-later items when user is authenticated
+    if (authUser) {
+      getSaveForLaterItems();
+    }
+  }, [addToSaveForLater, authUser]);
 
   let searchedProducts = [];
 

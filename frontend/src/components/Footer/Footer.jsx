@@ -371,7 +371,7 @@ export default function Footer() {
       </footer>
       <div className="w-full bg-[#DEE2E7] flex justify-center">
         <div className="w-full max-w-[1180px] h-auto flex justify-between py-5">
-          <h1>© 2023 Ecommerce. </h1>
+          <h1>© 2026 Ecommerce. </h1>
           <div>
             <LanguageDropdown />
           </div>
