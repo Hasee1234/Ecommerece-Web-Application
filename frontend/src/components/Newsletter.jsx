@@ -31,7 +31,7 @@ export default function Newsletter() {
           </svg>
           <input type="email" placeholder="haseemirza942@gmail.com" required />
         </label>
-        <button className="btn bg-blue-600 border-none text-white outline-none">Subscribe</button>
+        <button  className="btn bg-blue-600 border-none text-white outline-none">Subscribe</button>
       </div>
     </div>
   );
